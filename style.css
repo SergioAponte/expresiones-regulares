@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.formulario{
+    height: 80%;
+    width: 50%;
+    background-color: rgba(56, 56, 50, 0.427);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.title{
+    font-size: 30px;
+}
+.nombre_apellido{
+    height: 45px;
+    width: 80%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.nombres,.apellidos{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fecha_telefono{
+    height: 40px;
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#fechas,#telefonos{
+    height: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.emails{
+    height: 40px;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#email{
+    height: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
